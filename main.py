@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import yfinance as yf
-from pprint import pprint
 
 app = Flask(__name__)
 
